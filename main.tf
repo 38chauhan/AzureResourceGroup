@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "rgroup3name" {
-  name     = "ashurg3"
+  name     = "ashu-rg-03"
   location = "West US"
 }
