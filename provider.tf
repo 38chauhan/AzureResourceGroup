@@ -1,5 +1,5 @@
 terraform {
-  required_version = "1.12.2"
+ 
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
@@ -11,6 +11,7 @@ storage_account_name = "ashurgstg3"
 container_name = "ashucont3"                             
 key = "prod.terraform.tfstate"               
   }
+}
 }
 
 provider "azurerm" {
