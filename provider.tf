@@ -5,6 +5,11 @@ terraform {
       source  = "hashicorp/azurerm"
       version = ">=4.33.0"
     }
+backend "azurerm" {
+resource_group_name = "ashurg-3"       
+storage_account_name = "ashurgstg3"
+container_name = "ashucont3"                             
+key = "prod.terraform.tfstate"               
   }
 }
 
