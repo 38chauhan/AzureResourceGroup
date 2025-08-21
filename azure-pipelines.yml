@@ -1,0 +1,9 @@
+trigger:
+- none
+
+pool:
+  vmImage: 'ORG1-agent1'
+
+steps:
+- script: echo "Hello Azure DevOps Pipeline!"
+  displayName: "Print Hello World"
